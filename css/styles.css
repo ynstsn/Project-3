@@ -1,0 +1,194 @@
+/* styles.css */
+
+ header> h1 {
+    text-align: center;
+}
+
+header > p{
+    text-align: center;
+}
+
+header{
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.competences-container {
+    display: flex; /* Afficher les blocs côte à côte */
+    gap: 20px; /* Espacement entre les blocs */
+}
+
+.secondLine{
+    display: flex; /* Afficher les blocs côte à côte */
+    gap: 20px; /* Espacement entre les blocs */
+}
+
+.PresentME {
+    background-color: #f5f5f5; /* Couleur de fond plus foncée */
+    color: black; /* Couleur du texte */
+    padding: 15px;
+    border-radius: 8px; /* Angles arrondis */
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    flex: 1; /* Ajuster la taille des blocs */
+}
+
+.PresentME h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.PresentME p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: auto;
+}
+
+.competences-block {
+    background-color: #f5f5f5; /* Couleur de fond plus foncée */
+    color: black; /* Couleur du texte */
+    padding: 15px;
+    border-radius: 8px; /* Angles arrondis */
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);/* Ombre légère */
+    flex: 1; /* Ajuster la taille des blocs */
+}
+
+.competences-block h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.competences-block p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: auto;
+}
+.Parcour {
+    background-color: #f5f5f5; /* Couleur de fond plus foncée */
+    color: black; /* Couleur du texte */
+    padding: 15px;
+    border-radius: 8px; /* Angles arrondis */
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    flex: 1; /* Ajuster la taille des blocs */
+}
+
+.Parcour h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Parcour p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: auto;
+}
+.ExperiencePro {
+    background-color: #f5f5f5; /* Couleur de fond plus foncée */
+    color: black; /* Couleur du texte */
+    padding: 15px;
+    border-radius: 8px; /* Angles arrondis */
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    flex: 1; /* Ajuster la taille des blocs */
+}
+
+.ExperiencePro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ExperiencePro p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: auto;
+}
+.projet {
+    background-color: #f5f5f5; /* Couleur de fond plus foncée */
+    color: black; /* Couleur du texte */
+    padding: 15px;
+    border-radius: 8px; /* Angles arrondis */
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    flex: 1; /* Ajuster la taille des blocs */
+}
+
+.projet h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.projet p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: auto;
+}
+.loisir {
+    background-color: #f5f5f5; /* Couleur de fond plus foncée */
+    color: black; /* Couleur du texte */
+    padding: 15px;
+    border-radius: 8px; /* Angles arrondis */
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    flex: 1; /* Ajuster la taille des blocs */
+}
+
+.loisir h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.loisir p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: auto;
+}
+.today {
+    background-color: #f5f5f5; /* Couleur de fond plus foncée */
+    color: black; /* Couleur du texte */
+    padding: 15px;
+    border-radius: 8px; /* Angles arrondis */
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    flex: 1; /* Ajuster la taille des blocs */
+}
+
+.today h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.today p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: auto;
+}
+
+/* Style général du corps de la page */
+footer {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style des liens dans le corps */
+footer > a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer > a:hover {
+    color: black;
+}
