@@ -6,35 +6,79 @@
     <title>Portfolio</title>
 </head>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
 
-<header>
-    <h1>Mon Portfolio</h1>
 
-    <p class="presentation">
-        Plongez dans mon univers créatif ! Mon portfolio est bien plus qu’une simple collection de projets. C’est un voyage à travers mes idées, mon savoir-faire et ma passion.
-         Imaginez-vous parcourant des pages virtuelles où chaque projet raconte une histoire unique. Des lignes de code qui dansent, des designs qui s’animent, 
-        et des concepts qui prennent vie. Que vous soyez un recruteur, un client potentiel ou simplement curieux, laissez-vous emporter par la magie de mes réalisations.
+
+ <header>
+    <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+
+    <label for="main-navigation-toggle">
+      <span></span>
+    </label>
+
+<nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="index.html">Home</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="html/presentMe.html">Qui-suis-je</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="https://github.com/ynstsn">GitHub</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="https://www.linkedin.com/in/yunus-emre-tosun-533691267/">LinkedIn</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="html/contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  
+<main class="page-container">
+  <h1>Mon Portfolio</h1>
+  <p>
+    Plongez dans un univers où la créativité s'exprime sans limites. 
+    Explorez un monde où chaque pixel raconte une histoire, où le design se mêle à la fonctionnalité pour créer une expérience immersive. 
+    Bienvenue dans mon univers créatif, où chaque clic vous rapproche d'une expérience inoubliable.</p>
+    <p>
+        Bienvenue dans mon portfolio web, un voyage visuel captivant qui vous invite à découvrir 
+        mes réalisations les plus inspirantes. 
+    </p>
+    <p>
+        Que vous soyez passionné par le design graphique, 
+        le développement web ou l'art numérique, vous trouverez ici une vitrine éblouissante de mon savoir-faire. 
+    </p>
+    <p>    
+        Des interfaces élégantes aux illustrations saisissantes, 
+        chaque projet est soigneusement conçu pour susciter l'émerveillement et l'admiration. 
+    </p>
+        Plongez dans ce monde numérique où l'imagination devient réalité et laissez-vous transporter par l'art de l'excellence. 
+    <p>
+        Bienvenue dans mon univers créatif, où chaque clic vous rapproche d'une expérience inoubliable.</p>
     </p>
 
+ </main>
 </header>
-
-<br>
 
 <body>
 
-
-
 <div class="competences-container">
-    <div class="PresentME">
+    <div class="PresentME" onmouseover="agrandir(this)" onmouseout="retrecir(this)">
         <h2>Qui-suis-je</h2>
         <p>Je suis un passionné du numérique, un créatif qui explore les méandres du code et de la conception.
              Mon esprit curieux me pousse à repousser les limites et à créer des expériences uniques.</p>
     </div>
-    <div class="competences-block">
+
+    <div class="competences-block" onmouseover="agrandir(this)" onmouseout="retrecir(this)">
         <h2>Mes Compétences</h2>
         <p>Je suis passionné par le développement informatique. Le développement logiciel, web ou mobile un domaine magique.</p>
     </div>
-    <div class="Parcour">
+    <div class="Parcour" onmouseover="agrandir(this)" onmouseout="retrecir(this)">
         <h2>Mon Parcour</h2>
         <p>Mon parcours est un kaléidoscope d’apprentissages.</p>
     </div>
@@ -43,15 +87,15 @@
 <br>
 
     <div class="secondLine">
-        <div class="ExperiencePro">
+        <div class="ExperiencePro" onmouseover="agrandir(this)" onmouseout="retrecir(this)">
             <h2>Mes Expérience Professionel</h2>
             <p>J’ai eu la chance de travailler avec des équipes talentueuses dans des entreprises innovantes.</p>
         </div>
-        <div class="projet">
+        <div class="projet"  onmouseover="agrandir(this)" onmouseout="retrecir(this)">
             <h2>Projet</h2>
             <p>Venez découvrir mes projets enrichissants</p>
         </div>
-        <div class="loisir">
+        <div class="loisir" onmouseover="agrandir(this)" onmouseout="retrecir(this)">
             <h2>Mes Loisirs</h2>
             <p>En dehors du code, je suis une personne qui aime faire beaucoup de chose.</p>
         </div>
@@ -60,12 +104,14 @@
     <br>
     <br>
 
-    <div class="today">
+    <div class="today" onmouseover="agrandir(this)" onmouseout="retrecir(this)">
         <h2>Actuellement</h2>
         <p>Je suis passionné par le développement web, la conception d'interfaces utilisateur et la résolution de problèmes. Cliquer pour en savoir plus</p>
     </div>
 
 </body>
+
+<br>
 
 <footer class="site-footer">
     <div class="footer-content">
@@ -76,20 +122,22 @@
         <div class="footer-column">
             <h3>Liens utiles</h3>
             <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <!-- Ajoutez d'autres liens ici -->
+                <li><a href="html/contact.html">Contact</a></li>
+                <!-- Ajoute d'autres liens ici -->
             </ul>
         </div>
         <div class="footer-column">
             <h3>Réseaux sociaux</h3>
             <ul>
-                <li><a href="https://linkedin.com/monprofil">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/in/yunus-emre-tosun-533691267/">LinkedIn</a></li>
                 <li><a href="https://github.com/ynstsn">GitHub</a></li>
-                <!-- Ajoutez d'autres liens vers vos réseaux sociaux -->
+                <li><a href="https://www.instagram.com/sitemakers_?igsh=MXE4bzI4cmRmdGNmNQ==">Instagram</a></li>
+                <!-- Ajoute d'autres liens vers réseaux sociaux -->
             </ul>
         </div>
     </div>
     <p class="footer-copyright">© 2024 Mon Portfolio. Tous droits réservés.</p>
-    
+</footer>
+
 </footer>
 </html>
