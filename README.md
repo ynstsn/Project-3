@@ -1,6 +1,5 @@
 # Project-4
 Portfolio
 
-# Debut Projet
-
-Elaborationde la base du portfolio la page d'accueil
+# Suivie Projet
+La majorité de la page à été faite il manque plus que le design 
