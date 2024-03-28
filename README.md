@@ -18,7 +18,7 @@ Loisir : Fait
 
 Actuellement : Fait 
 
-Contact : Faire un formulaire pour que les puissent me contacter
+Contact : Fini a voir si sa marche
 
 # Pour visualiser le site
 
