@@ -8,16 +8,16 @@ Design a revoir selon l'avancement
 
 Qui-suis-je : Fait
 
-Competence : TO DO
+Competence : Fait
 
-Parcour : Non fait
+Parcour : Fait
 
-Experience professionel : Non fait
+Experience professionel : Fait
 
-Projet : Non fait
+Projet : Fait
 
-Loisir : Non fait 
+Loisir : Fait 
 
-Actuellement : Non fait 
+Actuellement : Fait 
 
-Contact : Non fait
+Contact : Faire un formulaire pour que les puissent me contacter

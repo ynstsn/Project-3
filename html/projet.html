@@ -1,20 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+    <title>Projet</title>
 </head>
+    <link rel="stylesheet" href="../css/projectStyle.css">
+    <script src="../js/scriptProjet.js" defer></script>
 
-<header>
- <h1>Projet</h1>
+
+
+ <header>
+    <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+
+    <label for="main-navigation-toggle">
+      <span></span>
+    </label>
+
+<nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="https://github.com/ynstsn">GitHub</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="https://www.linkedin.com/in/yunus-emre-tosun-533691267/">LinkedIn</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="../html/contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+<main class="page-container">
+  <h1>Mes projets</h1>
+    <p>    Bienvenue dans la section Projets de mon portfolio ! </p>
+    <p>
+        Ici, vous trouverez un aperçu des projets passionnants sur lesquels 
+        j'ai travaillé jusqu'à présent, ainsi que ceux que j'ai l'intention d'ajouter à l'avenir.
+    </p>
+    <p>
+        Les projets présentés ici sont le fruit de mon engagement et de ma passion 
+        pour le développement web et logiciel, ainsi que pour la résolution de problèmes créatifs. 
+        Chaque projet représente une opportunité unique d'explorer de nouvelles technologies, d'affiner 
+        mes compétences et de relever des défis stimulants.
+    </p>
+    <p>
+        À ce jour, j'ai eu l'occasion de travailler sur une variété de projets, 
+        allant du développement de sites web et d'applications à la conception de solutions logicielles innovantes.
+        Chaque projet a été une expérience d'apprentissage enrichissante qui m'a permis de repousser mes limites et 
+        de développer une expertise dans différents domaines.
+
+    </p>
+    <p>    
+        Et ce n'est que le début ! Je suis constamment à la recherche de nouveaux 
+        défis et de nouvelles opportunités de projets. Dans un avenir proche, 
+        je prévois d'ajouter de nouveaux projets à cette section, mettant en valeur mes compétences 
+        et mon évolution en tant que développeur.
+
+    </p>
+    <p>
+        Restez à l'écoute pour découvrir les futurs projets passionnants que 
+        j'aurai le plaisir de partager avec vous ! Si vous souhaitez en savoir plus sur un projet spécifique 
+        ou discuter de collaborations potentielles, n'hésitez pas à me contacter.
+    </p>
+ </main>
 </header>
 
 <body>
-    
+
+    <br>
+<!-- <div class="competences-container"> -->
+    <div class="projet1" onmouseover="agrandir(this)" onmouseout="retrecir(this)">
+        <h2>Projet 1</h2>
+        <p>Embarquez pour une expérience de voyage sans pareille avec notre 
+            site de réservation de train : votre billet vers l'aventure commence ici !</p>
+    </div>
+
+    <br>
+
+    <div class="projet2" onmouseover="agrandir(this)" onmouseout="retrecir(this)">
+        <h2>Projet 2</h2>
+        <p>Découvrez notre site web de gestion sur mesure pour les laboratoires d'analyse médicale : 
+            une solution informatique précise et efficace pour répondre à vos besoins professionnels les plus exigeants.</p>
+    </div>
+
+    <br>
+
+    <div class="projet3" onmouseover="agrandir(this)" onmouseout="retrecir(this)">
+        <h2>Projet 3</h2>
+        <p>Découvrez les dessous de mon portfolio : explorez le code source de cette création sur mesure, 
+            conçue avec dévouement pour refléter mon identité professionnelle et mes compétences en développement web.</p>
+    </div>
+<!-- </div> -->
+<br>
+
+    <!-- <div class="secondLine"> -->
+        <div class="projet4" onmouseover="agrandir(this)" onmouseout="retrecir(this)">
+            <h2>Projet 4</h2>
+            <p>Explorez les méandres de mon propre jeu de Nim : découvrez trois modes de jeu distincts, 
+                défiez vos amis ou mettez-vous au défi en affrontant l'intelligence artificielle. 
+                Plongez dans une expérience ludique 
+                où la stratégie et l'amusement se rencontrent dans un jeu conçu avec passion.</p>
+        </div>
+
+        <br>
+    <!-- </div> -->
 </body>
 
-<footer>
+<br>
 
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-column">
+            <h3>À propos de moi</h3>
+            <p>Je suis un passionné du numérique, créatif et curieux. Mon portfolio est le reflet de mes idées et réalisations.</p>
+        </div>
+        <div class="footer-column">
+            <h3>Liens utiles</h3>
+            <ul>
+                <li><a href="html/contact.html">Contact</a></li>
+                <!-- Ajoute d'autres liens ici -->
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Réseaux sociaux</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/yunus-emre-tosun-533691267/">LinkedIn</a></li>
+                <li><a href="https://github.com/ynstsn">GitHub</a></li>
+                <li><a href="https://www.instagram.com/sitemakers_?igsh=MXE4bzI4cmRmdGNmNQ==">Instagram</a></li>
+                <!-- Ajoute d'autres liens vers réseaux sociaux -->
+            </ul>
+        </div>
+    </div>
+    <p class="footer-copyright">© 2024 Mon Portfolio. Tous droits réservés.</p>
 </footer>
+
 </html>

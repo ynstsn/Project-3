@@ -365,7 +365,7 @@ a {
     gap: 20px; 
 }
 
-.projet1 {
+.analyse {
     background-color: #f5f5f5; 
     color: black; 
     padding: 15px;
@@ -374,106 +374,19 @@ a {
     flex: 1; 
 }
 
-.projet1 h2 {
+.analyse h2 {
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.projet1 p {
+.analyse p {
     font-size: 16px;
     margin-bottom: 20px;
     text-align: center;
     padding: auto;
 }
 
-.projet2 {
-    background-color: #f5f5f5; 
-    color: black; 
-    padding: 15px;
-    border-radius: 50px; 
-    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
-    flex: 1; 
-}
-
-.projet2 h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.projet2 p {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: auto;
-}
-.projet3 {
-    background-color: #f5f5f5; 
-    color: black; 
-    padding: 15px;
-    border-radius: 50px; 
-    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1); 
-    flex: 1; 
-}
-
-.projet3 h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.projet3 p {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: auto;
-}
-.projet4 {
-    background-color: #f5f5f5; 
-    color: black; 
-    padding: 15px;
-    border-radius: 50px; 
-    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1); 
-    flex: 1; 
-}
-
-.projet4 h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.projet4 p {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: auto;
-}
-
-/*Pour faire un bloque*/
-
-/* .projet {
-    background-color: #f5f5f5; 
-    color: black; 
-    padding: 15px;
-    border-radius: 50px; 
-    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1); 
-    flex: 1; 
-}
-
-.projet h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.projet p {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: auto;
-} */
 
 .site-footer {
     background-color: #f9f9f9;
