@@ -21,3 +21,7 @@ Loisir : Fait
 Actuellement : Fait 
 
 Contact : Faire un formulaire pour que les puissent me contacter
+
+# Pour visualiser le site
+
+Téléchargez le projet, placez-le dans un répertoire, puis cliquez sur index.html.
